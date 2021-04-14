@@ -63,10 +63,12 @@ section div div img{
     text-align: center;  
     padding-top: 25%;   
     padding-bottom: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .section2{
-    border: solid 1px black;
+    
 }
 
 .section2Box{
@@ -77,6 +79,28 @@ section div div img{
 }
 .infoBox{
     margin: 2%;
+}
+footer{
+    display: flex;
+    color: white;
+    background-color: #00B172;
+    margin: 0% 1%;
+    padding: 4% 3%;
+}
+footer div h5,p {
+    flex-direction: column;
+    padding-right: 60%;
+}
+footer div h4{
+    padding-right: 30%;
+    font-size: 140%;
+    text-decoration-line: underline;
+}
+footer img{
+    justify-content: flex-end;
+    width: 30%;
+    height: 30%;
+    align-items:flex-end;
     
 
 }
